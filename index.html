@@ -93,14 +93,13 @@
         .card { background: var(--color-card-bg); border: 1px solid var(--color-border); border-radius: 8px; padding: 1.5rem; transition: transform 0.2s ease; display: flex; flex-direction: column; }
         .card:hover { border-color: var(--color-accent); transform: translateY(-2px); }
         
-        /* --- UPDATED IMAGE CSS --- */
+        /* --- FINAL CORRECTED IMAGE CSS --- */
         .event-img { 
             width: 100%; 
-            aspect-ratio: 1 / 1; /* Forces a perfect square shape */
-            object-fit: cover;   /* Ensures the image fills the square without distortion */
-            height: auto; 
+            height: auto; /* Allows natural height based on the image itself */
             border-radius: 4px; 
             margin-bottom: 1rem; 
+            /* Kept background dark in case of transparent PNGs, but removed cropping rules */
             background: #1a1e2e; 
         }
 
