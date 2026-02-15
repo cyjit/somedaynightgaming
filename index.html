@@ -51,7 +51,7 @@
             padding: 4rem 1.5rem;
         }
 
-        /* --- Updated Hero for Logo --- */
+        /* --- Hero Section --- */
         .hero {
             display: flex;
             align-items: center;
@@ -66,13 +66,8 @@
             height: 140px;
             object-fit: contain;
             border-radius: 8px;
-            /* Placeholder styling if image is missing */
-            background: rgba(255,255,255,0.05);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            background: rgba(255,255,255,0.05); /* Placeholder bg if image loads slow */
             color: var(--color-text-muted);
-            font-size: 0.8rem;
         }
         .hero-text {
             text-align: left;
@@ -139,7 +134,7 @@
             <div class="card-grid">
                 
                 <div class="card">
-                    <div style="background: linear-gradient(45deg, #1e293b, #0f172a); height: 160px; border-radius: 4px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #475569;">[Event Image]</div>
+                    <img src="beantown.png" alt="Beantown Beatdown" class="event-img">
                     
                     <span class="card-meta">Dec 12-13, 2026 • Danvers, MA</span>
                     <div class="card-title">Beantown Beatdown</div>
@@ -150,7 +145,7 @@
                 </div>
 
                 <div class="card">
-                    <div style="background: linear-gradient(45deg, #1e293b, #0f172a); height: 160px; border-radius: 4px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #475569;">[Event Image]</div>
+                    <img src="showdown.png" alt="Bay State Showdown" class="event-img">
                     
                     <span class="card-meta">July 11-12, 2026 • Wakefield, MA</span>
                     <div class="card-title">Bay State Showdown</div>
