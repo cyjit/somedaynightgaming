@@ -93,13 +93,12 @@
         .card { background: var(--color-card-bg); border: 1px solid var(--color-border); border-radius: 8px; padding: 1.5rem; transition: transform 0.2s ease; display: flex; flex-direction: column; }
         .card:hover { border-color: var(--color-accent); transform: translateY(-2px); }
         
-        /* --- FINAL CORRECTED IMAGE CSS --- */
+        /* --- Event Images (Full Square) --- */
         .event-img { 
             width: 100%; 
-            height: auto; /* Allows natural height based on the image itself */
+            height: auto; 
             border-radius: 4px; 
             margin-bottom: 1rem; 
-            /* Kept background dark in case of transparent PNGs, but removed cropping rules */
             background: #1a1e2e; 
         }
 
@@ -142,7 +141,6 @@
                 
                 <div class="card">
                     <img src="beantown.png" alt="Beantown Beatdown" class="event-img">
-                    
                     <span class="card-meta">Dec 12-13, 2026 • Danvers, MA</span>
                     <div class="card-title">Beantown Beatdown</div>
                     <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
@@ -153,7 +151,6 @@
 
                 <div class="card">
                     <img src="showdown.png" alt="Bay State Showdown" class="event-img">
-                    
                     <span class="card-meta">July 11-12, 2026 • Wakefield, MA</span>
                     <div class="card-title">Bay State Showdown</div>
                     <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
@@ -163,8 +160,14 @@
                 </div>
 
             </div>
+            
             <div style="margin-top: 1.5rem; text-align: center;">
                 <a href="https://www.infinitynewengland.com" style="color: var(--color-accent); font-weight: 500;">View Full Regional Calendar at Infinity New England &rarr;</a>
+                
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-top: 1rem; line-height: 1.5; max-width: 650px; margin-left: auto; margin-right: auto;">
+                    Running high quality events at game stores and conventions. 
+                    Do you want to run an event for your favorite system? We're here to help.
+                </p>
             </div>
         </section>
 
@@ -203,13 +206,9 @@
                     Famous for its "active reaction" system and fully supported <strong>PvE cooperative modes</strong>, allowing you to quest against the game itself or battle rival factions.
                 </p>
             </div>
-        </section>
 
-        <section class="section">
-            <h2 class="section-header">Community & Supply</h2>
-            
-            <div class="card" style="margin-bottom: 2rem;">
-                <div class="card-title">Also Played Locally</div>
+            <div class="card" style="margin-top: 3rem;">
+                <div class="card-title">Other Community Favorites</div>
                 <div class="compact-list">
                     <span class="tag">Cyberpunk Red: Combat Zone</span>
                     <span class="tag">Blood & Plunder</span>
@@ -218,7 +217,11 @@
                     <span class="tag">Heavy Gear Blitz</span>
                 </div>
             </div>
+        </section>
 
+        <section class="section">
+            <h2 class="section-header">Community & Supply</h2>
+            
             <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
                 <div style="flex: 1; min-width: 280px;">
                     <h3 style="color:white; font-size: 1.25rem; margin-bottom: 0.5rem;">Join the Community</h3>
